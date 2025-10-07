@@ -1,0 +1,59 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * hypatia-sans-pro:
+ *   - http://typekit.com/eulas/00000000000000003b9ada9b
+ *   - http://typekit.com/eulas/00000000000000003b9ada9c
+ *   - http://typekit.com/eulas/00000000000000003b9ada9f
+ *   - http://typekit.com/eulas/00000000000000003b9adaa2
+ * teko:
+ *   - http://typekit.com/eulas/00000000000000007735b880
+ *   - http://typekit.com/eulas/00000000000000007735b881
+ *
+ * © 2009-2025 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2022-03-31 23:40:14 UTC"}*/
+
+@import url("p.css");
+
+@font-face {
+font-family:"hypatia-sans-pro";
+src:url("../l") format("woff2"),url("../d_2") format("woff"),url("../a_5") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"hypatia-sans-pro";
+src:url("../l_1") format("woff2"),url("../d_5") format("woff"),url("../a_4") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"hypatia-sans-pro";
+src:url("../l_4") format("woff2"),url("../d_4") format("woff"),url("../a_3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"hypatia-sans-pro";
+src:url("../l_5") format("woff2"),url("../d_3") format("woff"),url("../a_2") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"teko";
+src:url("../l_3") format("woff2"),url("../d_1") format("woff"),url("../a") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"teko";
+src:url("../l_2") format("woff2"),url("../d") format("woff"),url("../a_1") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+.tk-hypatia-sans-pro { font-family: "hypatia-sans-pro",sans-serif; }
+.tk-teko { font-family: "teko",sans-serif; }

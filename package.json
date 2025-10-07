@@ -1,0 +1,20 @@
+{
+  "name": "yukon-gold-casino-spinner",
+  "version": "1.0.0",
+  "description": "Yukon Gold Casino Spinner Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -s . -l 10000",
+    "build": "echo 'No build step required for static site'",
+    "dev": "npx serve -s . -l 3000"
+  },
+  "keywords": ["casino", "spinner", "landing-page", "yukon-gold"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
