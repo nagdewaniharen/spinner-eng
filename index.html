@@ -13,20 +13,36 @@
     <meta name="Robots" content="noindex, nofollow, noodp">
     <link rel="canonical" href="https://jackpotwinner.net/en/spin/ng1/ygc/c1/">
 
+    <!-- Performance optimizations -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="//click.cr-brands.net">
     
-    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/css-jpw_en-new-jpw-spin-bundle.css" as="style">
+    <link rel="preload" href="js/jquery-3.7.0.min.js" as="script">
+    <link rel="preload" href="js/spin_script.js" as="script">
+    <link rel="preload" href="images/logo-ccc.fs8.png" as="image">
+    <link rel="preload" href="images/ring-bg-ccc.fs8.png" as="image">
+    <link rel="preload" href="images/pointer.fs8.png" as="image">
 
     <title>Yukon Gold Casino</title>
 
     <link rel="stylesheet" href="css/font-awesome.min.css" crossorigin="anonymous"> 
 
-
-
-    
-
     <link href="css/css-jpw_en-new-jpw-spin-bundle.css" rel="stylesheet">
     
     <style>
+        /* Performance optimizations */
+        * {
+            box-sizing: border-box;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
         .spin-button-container {
             text-align: center;
             margin: 20px 0;
@@ -45,6 +61,7 @@
             transition: all 0.3s ease;
             text-transform: uppercase;
             letter-spacing: 1px;
+            will-change: transform;
         }
         
         .btn-spin-external:hover {
@@ -59,6 +76,21 @@
         .btn-spin-external:disabled {
             opacity: 0.6;
             cursor: not-allowed;
+        }
+        
+        /* Optimize spinner animations */
+        .spinwheel-contain {
+            will-change: transform;
+        }
+        
+        /* Lazy loading placeholder */
+        .lazy-load {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .lazy-load.loaded {
+            opacity: 1;
         }
     </style>
 
@@ -233,7 +265,7 @@
     <div class="expander"></div>
 
 <h1 class="page-heading">
-    <img class="logo-header" src="images/logo-ccc.fs8.png?v=2">
+    <img class="logo-header" src="images/logo-ccc.fs8.png?v=2" loading="eager" alt="Yukon Gold Casino Logo">
     <span>Spin the brand new<br class="visible-xs"> Yukon Gold casino bonus wheel</span><br>
     <span>For your chance to win</span><br>
     <span class="styled-text">$1,000,000.00</span>
@@ -616,14 +648,14 @@
         var d83 = "irFD1XUK232DvxfBnF7QUVuHpxCuGC+Bh9OxeKA361w=";
     </script>
 
-    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/jquery-3.7.0.min.js" defer></script>
 <script>(window.jQuery)||document.write('<script src="/bundles/jquery"><\/script>');</script>
-<script src="ProgressiveJackpotTicker"></script>
+<script src="ProgressiveJackpotTicker" defer></script>
 
     
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js" defer></script>
     
-    <script src="js/new-game-onPageLoad.js"></script>
+    <script src="js/new-game-onPageLoad.js" defer></script>
 
     
     <script>
@@ -714,15 +746,15 @@
         }
     }
     </script>
-    <script src="js/ontarioModal.js"></script>
+    <script src="js/ontarioModal.js" defer></script>
     
-    <script src="js/webfontloader.js" crossorigin="anonymous"></script>
+    <script src="js/webfontloader.js" crossorigin="anonymous" defer></script>
     
-    <script src="js/polyfill.min.js" crossorigin="anonymous"></script>
+    <script src="js/polyfill.min.js" crossorigin="anonymous" defer></script>
     
-    <script src="js/spin_script.js"></script>
+    <script src="js/spin_script.js" defer></script>
     
-    <script src="js/flash_box.js"></script>
+    <script src="js/flash_box.js" defer></script>
 
 
 

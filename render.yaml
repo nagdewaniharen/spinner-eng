@@ -9,3 +9,6 @@ services:
         value: production
     healthCheckPath: /
     autoDeploy: true
+    # Performance optimizations
+    plan: starter  # Use starter plan for better performance
+    region: oregon  # Choose closest region to your users
