@@ -4,9 +4,9 @@
   "description": "Yukon Gold Casino Spinner Landing Page - Optimized for Performance",
   "main": "index.html",
   "scripts": {
-    "start": "npx serve -s . -l 10000 --cors --single --compress",
+    "start": "npx serve -s . -l 10000 --cors --single",
     "build": "echo 'No build step required for static site'",
-    "dev": "npx serve -s . -l 3000 --cors --single --compress"
+    "dev": "npx serve -s . -l 3000 --cors --single"
   },
   "keywords": ["casino", "spinner", "landing-page", "yukon-gold", "performance"],
   "author": "",
